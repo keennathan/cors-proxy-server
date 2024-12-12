@@ -30,8 +30,8 @@ const clientSecret = process.env.VITE_CLIENT_SECRET;
  * Configuration:
  * - originWhitelist: An array of allowed origins. An empty array means all origins are allowed.
  * - requireHeader: An array of headers that must be present in the request.
- * - removeHeaders: An array of headers that will be removed from the request.
- */
+ * - removeHeaders:  An array of headers that will be removed from the request.
+ */ 
 corsAnywhere.createServer({
     originWhitelist: [], // Allow all origins
     requireHeader: ['origin', 'x-requested-with'],
